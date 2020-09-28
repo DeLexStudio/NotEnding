@@ -20,7 +20,6 @@ namespace NotEnding
                 sum += Endless;
                 Endless++;
             }
-            Console.WriteLine();
             Console.WriteLine("Сумма = " + sum);
             Console.ReadKey();
         }
