@@ -12,6 +12,7 @@ namespace NotEnding
         {
             int Endless = 0;
             int sum = 0;
+            int pro = 1;
             Console.WriteLine("Введите число p");
             int p = Convert.ToInt32(Console.ReadLine());
             while (sum < p)
@@ -22,6 +23,14 @@ namespace NotEnding
             }
             Console.WriteLine();
             Console.WriteLine("Сумма = " + sum);
+            while (pro < p)
+            {
+                Console.Write(Endless + " ");
+                pro *= Endless;
+                Endless++;
+            }
+            Console.WriteLine();
+            Console.WriteLine("Произведение = " + pro);
             Console.ReadKey();
         }
     }
