@@ -10,15 +10,15 @@ namespace NotEnding
     {
         static void Main(string[] args)
         {
-            int ne = 0;
+            int Endless = 0;
             int sum = 0;
             Console.WriteLine("Введите число p");
             int p = Convert.ToInt32(Console.ReadLine());
             while (sum < p)
             {
-                Console.Write(ne + " ");
-                sum += ne;
-                ne++;
+                Console.Write(Endless + " ");
+                sum += Endless;
+                Endless++;
             }
             Console.WriteLine();
             Console.WriteLine("Сумма = " + sum);
