@@ -23,6 +23,7 @@ namespace NotEnding
             }
             Console.WriteLine();
             Console.WriteLine("Сумма = " + sum);
+            Endless = 0;
             while (pro < p)
             {
                 Console.Write(Endless + " ");
