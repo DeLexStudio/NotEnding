@@ -27,11 +27,11 @@ namespace NotEnding
             while (pro < p)
             {
                 Console.Write(Endless + " ");
-                pro *= Endless;
+                pro = pro * Endless;
                 Endless++;
             }
             Console.WriteLine();
-            Console.WriteLine("Произведение = " + pro);
+            Console.WriteLine("Факториал = " + pro);
             Console.ReadKey();
         }
     }
